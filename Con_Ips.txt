@@ -1,0 +1,8 @@
+Lch = [ 1 4 9:-1:6 15 18:-1:16 24 27:-1:25 33 34 37:-1:35 47:-1:44 55:-1:53 60 61]
+Rch = [ 3 5 11:14 23 20:22 32 29:31 43 42 39:41 49:52 57:59 64 63]                                               
+nbin1 = 0.5*bin1@Rch + 0.5*bin2@Lch label Threat Contra        
+nbin2 = 0.5*bin1@Lch + 0.5*bin2@Rch label Threat Ipsi          
+# For creating contra-minus-ipsi waveforms from the bins above,
+# run (only) the formulas described here below in a second call
+# of "ERP binoperator" (remove the # symbol before run them)   
+#bin3 = bin1 - bin2 label Threat Contra-Ipsi                   

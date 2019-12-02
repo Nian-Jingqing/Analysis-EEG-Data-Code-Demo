@@ -1,0 +1,15 @@
+bin1
+Left Threat
+.{6}{35;36}{17;18}
+
+bin2
+Right Threat
+.{8}{35;36}{17;18}
+
+bin3
+Threat Cue
+.{12}{35;36}{17;18}
+
+bin4
+Nature Cue
+.{16}{35;36}{17;18}

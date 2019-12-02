@@ -1,0 +1,1 @@
+bin3 = bin1 - bin2 label Threat Diff_Wave
